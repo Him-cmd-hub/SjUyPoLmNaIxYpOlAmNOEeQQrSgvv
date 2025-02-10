@@ -115,3 +115,11 @@ local Input = MainTab:CreateInput({
 		v = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end,
  })
+
+
+ local Button = MainTab:CreateButton({
+	Name = "Antichat LOGGER",
+	Callback = function(v)
+		v = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+	end,
+ })
